@@ -20,6 +20,8 @@ When provided with a file, we see an error since cd requires a directory as its 
 bash: cd: Hello.java: Not a directory
 ```
 
+---
+
 ### Command `ls`
 
 When `ls` is used on its own, it prints out all files and directories in the working directory:
@@ -40,6 +42,8 @@ When ls is provided with a file, it lists that file - but only if it exists.
 [user@sahara ~/lecture1]$ ls Hello.java 
 Hello.java
 ```
+
+---
 
 ### Command `cat`
 
