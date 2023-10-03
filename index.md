@@ -5,7 +5,7 @@
 > Quoted this
 
 Checklist:
-[] Task 1
+[ ] Task 1
 [2] Done task 2
 
 Some other list:
