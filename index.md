@@ -25,3 +25,5 @@ int main() {
 `printf("hello world");`
 
 [Link to website](http://aadamkehl.com)
+
+![profile](/images/test.png)
