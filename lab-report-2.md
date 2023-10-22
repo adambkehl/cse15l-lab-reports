@@ -73,18 +73,18 @@ class StringServer {
     static variables are their updated values of `num = 2` and `str = 1. Hello`.
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed,
   explain why.
-  - We append to the static string a newline if it's not the first row, then the number of the entry, then the
-    string passed as the query parameter. Then we increment the row counter number. The result is `str = 1. Hello\n2.
-    How are you`
+  - We append to the static string a newline since it's not the first row, then the number of the entry, then the
+    string passed as the query parameter. Then we increment the row counter number again. The result is `str = 1. 
+    Hello\n2. How are you`
     and `num = 3`.
 
 ### Part 2
 
-#### Private key on local computer:
+#### Private key on local computer: `/c/Users/adamb/.ssh/id_rsa`
 
 ![private key screenshot](images/lab2/ls private key.png)
 
-#### Public key on server:
+#### Public key on server: `/home/.ssh/authorized_keys`
 
 ![public key screenshot](images/lab2/ls public key.png)
 
@@ -94,8 +94,6 @@ class StringServer {
 
 ### Part 3: Describe something you learned from lab in week 2 or 3 that you didn't know before.
 
-I learned about the man command, I've never used it before and it seems really useful just like looking it up 
+I learned about the man command -- I've never used it before, and it seems really useful to quickly look up usage
 without leaving the terminal. I've also learned that the mkdir command can create multiple directories. I learned 
-about the pipe buffer in Linux machines, after looking up how exactly the cat command works. I've worked on embedded 
-systems where I wrote something that copied one byte at a time rather than using a buffer and using a buffer is way 
-faster, better, and more efficient.
+about the pipe buffer in Linux machines, after looking up how exactly the cat command works.
