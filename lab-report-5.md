@@ -8,12 +8,17 @@ how several tests depend on each other in a circular fashion (bad practice
 that I saw at work lol).
 
 1. The original post may look something like this:
+
+
    > I'm having trouble understanding why I get a different error depending
    > on how many times I've run the tests. With an empty table and I run the
    > tests file, I get this error:
+   
    ![](/images/lab5/first_run.png)
+
    > but when I re-run the tests without changing anything at all, I get this
    > error:
+   
    ![](/images/lab5/second_run.png)
    > It looks like the first time I ran the test that `testInsert` succeeded
    > but the other two didn't because the entry wasn't there yet. The second
@@ -35,14 +40,17 @@ that I saw at work lol).
 
 
 - The student may discover this bug in the program:
+
   ![](images/lab5/erroneous_id.PNG)
 
 
 - These are two possible ways to fix the bug:
+
   ![](images/lab5/possible_fix.PNG)
 
 
 - or
+
   ![](images/lab5/another_possible_fix.PNG)
 
 4. File/Directory Structure of Assignment
